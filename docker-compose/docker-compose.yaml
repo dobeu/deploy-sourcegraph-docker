@@ -441,7 +441,7 @@ services:
   #
   prometheus:
     container_name: prometheus
-    image: 'index.docker.io/sourcegraph/prometheus:insiders@sha256:b36ad28d24e010cfacb6c21d8b95656f78e2f1cd74ab43fdddfa35b181d9fe39'
+    image: 'index.docker.io/sourcegraph/prometheus:insiders@sha256:0b966ab4848f2caee64f2b83c9fa25a8f53fa6e09063ea25d8a9e920e58b47db'
     cpus: 4
     mem_limit: '8g'
     volumes:
@@ -468,7 +468,7 @@ services:
   # 'GF_SERVER_ROOT_URL='https://grafana.example.com'
   grafana:
     container_name: grafana
-    image: 'index.docker.io/sourcegraph/grafana:insiders@sha256:00064d24e19e1159dd70d12bc328db64e8c45fb53062b9b0e3db93984371836d'
+    image: 'index.docker.io/sourcegraph/grafana:insiders@sha256:abc84a59f610e3850db43887e7dd10c87bb32250637ec7b84a53198444e806e7'
     cpus: 1
     mem_limit: '1g'
     volumes:
